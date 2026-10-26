@@ -45,14 +45,14 @@ Built the token contracts on both chains, the dApp frontend, and a backend servi
 - ~5,000 holders across both chains
 - [Abstract token](https://abscan.org/address/0x6e7038eb0f16c75785c43b69a0803c0ea59739db) | [Base token](https://basescan.org/token/0x623435EadF56A7f66726756b1B1A531349EE36A1) | [Website](https://projectverdant.com)
 
-### BaseStonk | Base & Robinhood Chain | Founder & Developer
+### BaseStonk | Base, Robinhood Chain & Arc | Founder & Developer
 **2026-present** -- Token launchpad built on Uniswap v4 hooks. A token launches in one transaction, paired with tokenised stocks, stables or majors, with holder dividends paid in a creator-chosen basket of assets and an automatic buyback-and-burn.
 
-Wrote the contract stack across six launcher generations (hooks, routed price oracles, basket vaults, holder-reward distributors), the React dApp, and the backend: a chain indexer, a Hono API with WebSocket feeds, keeper daemons for baskets and fee sweeps, and a capability-probing RPC router serving every chain from one process. Robinhood Chain support added while the network was days old.
+Wrote the contract stack across seven launcher generations (hooks, routed price oracles, basket vaults, holder-reward distributors), the React dApp, and the backend: a chain indexer, a Hono API with WebSocket feeds, keeper daemons for baskets and fee sweeps, and a capability-probing RPC router serving every chain from one process. Robinhood Chain support added while the network was days old; Arc added as a third chain by absorbing a standalone launchpad into the stack.
 
-- 576 tokens launched, ~166,000 on-chain trades
-- ~$22.1M tracked trading volume, ~49,400 holders
-- ~$115K paid to holders in basket dividends; ~$139K in creator revenue
+- ~4,660 tokens launched, ~344,000 on-chain trades
+- ~$41.7M tracked trading volume, ~178,000 holders
+- ~$185K paid to holders in basket dividends; ~$379K in creator revenue
 - [Token](https://basescan.org/token/0x0F61Edbfe6Cd86024C0f210c0695B08df55fdfc9) | [Website](https://basestonk.io)
 
 ---
